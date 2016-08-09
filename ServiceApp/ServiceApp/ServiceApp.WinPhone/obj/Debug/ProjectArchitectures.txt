@@ -1,0 +1,2 @@
+C:\Users\Yigit\Documents\Visual Studio 2015\Projects\ServiceApp\ServiceApp\ServiceApp.WinPhone\ServiceApp.WinPhone.csproj;neutral
+C:\Users\Yigit\Documents\Visual Studio 2015\Projects\ServiceApp\ServiceApp\ServiceApp\ServiceApp.csproj;neutral

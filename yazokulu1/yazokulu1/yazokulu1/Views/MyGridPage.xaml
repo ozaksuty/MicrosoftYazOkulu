@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="yazokulu1.Views.MyGridPage">
+
+  <StackLayout>
+    <Grid>
+      <BoxView Grid.Column="0" Grid.Row="0" BackgroundColor="Red"></BoxView>
+      <BoxView Grid.Column="1" Grid.Row="0" BackgroundColor="White"></BoxView>
+      <BoxView Grid.Column="0" Grid.Row="1" BackgroundColor="Blue"></BoxView>
+      <BoxView Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="2" BackgroundColor="Yellow"></BoxView>
+    </Grid>
+  </StackLayout>
+  
+  
+</ContentPage>

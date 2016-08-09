@@ -1,0 +1,13 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <LocalAssembly PathName="c:\users\yigit\documents\visual studio 2015\projects\yazokulu1\yazokulu1\yazokulu1.windows\obj\debug\intermediatexaml\yazokulu1.windows.exe" HashGuid="d4875507-9250-ef79-c60c-91ced16e46d0" />
+    <ReferenceAssembly PathName="c:\users\yigit\documents\visual studio 2015\projects\yazokulu1\packages\sqlite.net.core-pcl.3.1.1\lib\portable-win8+net45+wp8+wpa81+monoandroid1+monotouch1\sqlite.net.dll" HashGuid="2223cbf7-68d4-e5e4-e5e4-a19696ad83b6" />
+    <ReferenceAssembly PathName="c:\users\yigit\documents\visual studio 2015\projects\yazokulu1\packages\sqlite.net-pcl.3.1.1\lib\windows8\sqlite.net.platform.winrt.dll" HashGuid="1bc7eaa0-e36a-f105-20d8-c57b14216cea" />
+    <ReferenceAssembly PathName="c:\users\yigit\documents\visual studio 2015\projects\yazokulu1\packages\xamarin.forms.2.0.0.6482\lib\win81\xamarin.forms.core.dll" HashGuid="c8a30eb8-5ae8-352d-b94f-7c913a7557ba" />
+    <ReferenceAssembly PathName="c:\users\yigit\documents\visual studio 2015\projects\yazokulu1\packages\xamarin.forms.2.0.0.6482\lib\win81\xamarin.forms.platform.dll" HashGuid="d9389e38-8a39-bed5-406b-7a34fe4704ea" />
+    <ReferenceAssembly PathName="c:\users\yigit\documents\visual studio 2015\projects\yazokulu1\packages\xamarin.forms.2.0.0.6482\lib\win81\xamarin.forms.platform.winrt.dll" HashGuid="dbd728c2-e21b-4125-2be0-f7931b605baa" />
+    <ReferenceAssembly PathName="c:\users\yigit\documents\visual studio 2015\projects\yazokulu1\packages\xamarin.forms.2.0.0.6482\lib\win81\xamarin.forms.platform.winrt.tablet.dll" HashGuid="cc26105e-9714-a8a4-7460-d1885be1ee00" />
+    <ReferenceAssembly PathName="c:\users\yigit\documents\visual studio 2015\projects\yazokulu1\packages\xamarin.forms.2.0.0.6482\lib\win81\xamarin.forms.xaml.dll" HashGuid="2828b56a-3245-7d15-6650-dfb4f30cfa91" />
+    <ReferenceAssembly PathName="c:\users\yigit\documents\visual studio 2015\projects\yazokulu1\yazokulu1\yazokulu1\bin\debug\yazokulu1.dll" HashGuid="4ff82c55-67d7-bc2e-9cac-c3dd16f6a2c8" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>

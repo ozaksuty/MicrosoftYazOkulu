@@ -1,0 +1,2 @@
+c:\users\yigit\documents\visual studio 2015\Projects\yazokulu1\yazokulu1\yazokulu1.WinPhone\yazokulu1.WinPhone.csproj;neutral
+c:\users\yigit\documents\visual studio 2015\Projects\yazokulu1\yazokulu1\yazokulu1\yazokulu1.csproj;neutral

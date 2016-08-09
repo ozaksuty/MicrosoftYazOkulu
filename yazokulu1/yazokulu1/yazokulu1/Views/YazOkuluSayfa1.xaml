@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="yazokulu1.Views.YazOkuluSayfa1"
+             BackgroundColor="Black">
+
+  <StackLayout Orientation="Vertical" Padding="10,5,10,5"
+               Spacing="20">
+    <BoxView BackgroundColor="White"></BoxView>
+    <BoxView BackgroundColor="Red"></BoxView>
+    <BoxView BackgroundColor="Blue"></BoxView>
+  </StackLayout>
+  
+</ContentPage>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ServiceApp.Views.InsertPage">
+
+  <StackLayout Orientation="Vertical">
+    <TableView Intent="Form">
+      <TableRoot>
+        <TableSection Title="Insert Student">
+          <EntryCell Label="Name" x:Name="txtName"></EntryCell>
+          <EntryCell Label="Surname" x:Name="txtSurname"></EntryCell>
+          <ViewCell>
+            <StackLayout HorizontalOptions="FillAndExpand">
+              <Editor x:Name="txtAbout"></Editor>
+            </StackLayout>
+          </ViewCell>
+          <ViewCell>
+            <StackLayout HorizontalOptions="FillAndExpand">
+              <DatePicker x:Name="pckrBirthDate"></DatePicker>
+            </StackLayout>
+          </ViewCell>
+          <ViewCell>
+            <StackLayout HorizontalOptions="FillAndExpand">
+              <Button Text="Ekle" Clicked="onInsert"></Button>
+            </StackLayout>
+          </ViewCell>
+        </TableSection>
+      </TableRoot>
+    </TableView>
+  </StackLayout>
+  
+</ContentPage>

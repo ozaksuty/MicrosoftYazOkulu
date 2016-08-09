@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="yazokulu1.Views.DataBind">
+  <ContentPage.ToolbarItems>
+    <ToolbarItem Text="Ekle" Clicked="onInsertClick" Priority="1" Order="Secondary"></ToolbarItem>
+    <ToolbarItem Text="Detay" Priority="2" Order="Secondary"></ToolbarItem>
+  </ContentPage.ToolbarItems>
+  
+  <StackLayout>
+    <ListView x:Name="lstStudents" ItemSelected="onSelected" 
+              HasUnevenRows="True"
+              IsPullToRefreshEnabled="True"
+              Refreshing="onRefresh">
+      <ListView.Header>
+        <ContentView Padding="10">
+          <Label Text="Öğrenciler" FontSize="48" TextColor="Red"></Label>
+        </ContentView>
+      </ListView.Header>
+      <ListView.ItemTemplate>
+        <DataTemplate>
+          <ViewCell>
+            <StackLayout Orientation="Vertical">
+              <Label Text="{Binding Name}" FontSize="48"></Label>
+              <Label Text="{Binding Surname}" FontSize="48"></Label>
+            </StackLayout>
+            <ViewCell.ContextActions>
+              <MenuItem Text="Sil" IsDestructive="True"></MenuItem>
+              <MenuItem Text="Güncelle"></MenuItem>
+            </ViewCell.ContextActions>
+          </ViewCell>
+        </DataTemplate>
+      </ListView.ItemTemplate>
+      <ListView.Footer>
+        <ContentView Padding="10">
+          <Label Text="3 öğrenci" FontSize="48" TextColor="Red"></Label>
+        </ContentView>
+      </ListView.Footer>
+    </ListView>
+  </StackLayout>
+  
+</ContentPage>
